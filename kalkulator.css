@@ -1,0 +1,63 @@
+.container {
+  width: 300px;
+  background: #e8e8e8c1;
+  padding: 7px;
+  border-radius: 2px;
+  margin: 50px auto 0 auto;
+}
+
+.layar {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #cecece;
+  font-size: 25px;
+  font-weight: bold;
+  color: grey;
+  text-align: right;
+  padding: 5px 7px;
+  outline: none;
+}
+
+.container-tombol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tombol {
+  display: flex;
+  width: 25%;
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+  height: 70px;
+  box-sizing: border-box;
+  border: 1px solid #cecece;
+  border-left: none;
+  border-top: none;
+  align-items: center;
+  justify-content: center;
+}
+.tombol:hover {
+  background: #e4e4e4;
+  cursor: pointer;
+}
+
+.tombol:nth-child(4n + 1) {
+  border-left: 1px solid #cecece;
+}
+
+.nol {
+  flex-grow: 1;
+}
+
+.operator {
+  background: #d8d8d8;
+}
+
+.equal {
+  background: #ffa64a;
+}
+
+.equal:hover {
+  background: orange;
+}
